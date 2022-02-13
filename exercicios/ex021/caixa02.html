@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(145, 143, 143);
+            padding: 3px;
+            box-shadow: 5px 3px 5px  1px rgba(0, 0, 0, 0.479);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.479);
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(240, 237, 237);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <h1>meu site</h1>
+     <nav>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+     </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <article>
+                <h1>Notícias sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ex assumenda vero odit asperiores. Ex, quod! Quae reiciendis aliquam nam molestias, pariatur, eveniet maiores assumenda delectus incidunt minus consequuntur consequatur?</p>
+                <aside>
+                    <p>Artigo escrito por João Antonio</p>
+                </aside>
+            </article>
+            <article></article>
+        
+        </section>
+    </main>
+    <footer>
+      <p>desenvolvido por curso em vídeo</p>
+    </footer>
+
+
+</body>
+</html>
